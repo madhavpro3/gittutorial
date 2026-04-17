@@ -33,6 +33,7 @@ Other reference sources: [W3 schools](https://www.w3schools.com/git/default.asp)
 These are essential to keep track when working collaboratively.
 
 ## To merge the local branch into local main:
+* Ensure that the email id in your local repo is matching with the remote email id or added as a collaborator. Without this git push wont work.
 * ```git checkout main```. This moves the HEAD to point to main branch
 * ```git merge <branch name>```: Updates main branch with content of <branch name>
 
